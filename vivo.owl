@@ -4210,6 +4210,7 @@ The Uniform Code Council (UCC) was the Numbering Organization in the USA to admi
         <rdfs:label xml:lang="en">issue</rdfs:label>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bibo has the domain of bibo:issue as the class Issue, but an example on their site uses it with Article, referring to the issue number &quot;4&quot;</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Article"/>
+	<rdfs:comment xml:lang="en"Something that is printed or published and distributed, esp. a given number of a periodical.</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/locator"/>
     </owl:DatatypeProperty>
 
