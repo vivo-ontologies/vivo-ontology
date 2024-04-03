@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Change request
 about: Suggest an idea for this project
 title: "[FEATURE]"
 labels: ''
@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**What is the motivation for your feature request?**
+**What is the motivation for your change request?**
 A clear and concise description of the need, e.g. a new or missing identifier, subclass, or additional area of the domain to be modeled.
 
 **Describe the solution you'd like**
