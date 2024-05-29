@@ -17,3 +17,11 @@ The group holds regular meetings and is open to all. Please consider participati
 VIVO Ontologies is an open source community. All are welcome to open issues, participate in discussions, and generate pull reqeuests.
 
 You can contribute using the fork, branch and pull model. Helpful descriptions of the process are available [on the VIVO wiki](https://wiki.lyrasis.org/display/VIVO/Contributing+code+with+a+fork%2C+branches%2C+and+pull+requests).
+
+## Releases
+### Latest ontology file
+The latest version of the ontology can always be found at:
+https://raw.githubusercontent.com/vivo-ontologies/vivo-ontology/master/vivo.owl
+### Stable release versions
+Semantic Versioning is being used for publishing releases. They can be found at:
+https://github.com/vivo-ontologies/vivo-ontology/releases
