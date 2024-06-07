@@ -18,8 +18,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcat="http://www.w3.org/ns/dcat#"
-     xmlns:bibo="http://purl.org/ontology/bibo/">
+     xmlns:dcat="http://www.w3.org/ns/dcat#">
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
@@ -28,11 +27,10 @@
         <dc:creator rdf:resource="VIVO Ontology Interest Group"/>
         <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-07T12:00:00Z</dc:modified>
         <owl:versionInfo>1.17.0</owl:versionInfo>
-        <dc:description xml:lang="en">The VIVO Ontology represents scholarship.</dc:description>
+        <dc:description xml:lang="en">The VIVO Ontology is used to represent the expertise of people engaged in the creation, transmission, and preservation of knowledge and creative works. The VIVO ontology (hereafter referred to as “the ontology”) represents expertise by describing the activities and accomplishments of people in terms of their relationships to particular artifacts of the work, resources they use, institutions that employ them, and other indicators. The ontology is independent of knowledge or creative domain. The ontology supports the identification, evaluation, and impact assessment of individual people and groups of people, as well as identification and reuse of the works of the people.</dc:description>
         <doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
         <dcat:distribution rdf:resource="https://raw.githubusercontent.com/vivo-ontologies/vivo-ontology/master/vivo.owl"/>
         <doap:bug-database rdf:resource="https://github.com/vivo-ontologies/vivo-ontology/issues"/>
-        <bibo:status xml:lang="en">active</bibo:status>
     </owl:Ontology>
 
     <!--
