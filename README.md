@@ -17,3 +17,20 @@ The group holds regular meetings and is open to all. Please consider participati
 VIVO Ontologies is an open source community. All are welcome to open issues, participate in discussions, and generate pull reqeuests.
 
 You can contribute using the fork, branch and pull model. Helpful descriptions of the process are available [on the VIVO wiki](https://wiki.lyrasis.org/display/VIVO/Contributing+code+with+a+fork%2C+branches%2C+and+pull+requests).
+
+## Releases
+### Semantic Versioning
+This ontology adheres to the principles of Semantic Versioning (SemVer) for managing its releases. Semantic Versioning provides a standardized approach for versioning ontologies, allowing users to quickly understand the scope of changes between versions.
+
+### Versioning Scheme
+- Major Release: Indicates substantial changes, such as alterations to the ontology's core structure or significant shifts in semantics.
+- Minor Release: Introduces new concepts or properties in a manner consistent with existing ontology structures.
+- Patch Release: Includes bug fixes or minor updates without modifying the ontology's core structure or semantics.
+
+### Latest ontology file
+The latest version of the ontology file can be found at:
+https://raw.githubusercontent.com/vivo-ontologies/vivo-ontology/master/vivo.owl
+
+### Release versions
+Release versions be found at:
+https://github.com/vivo-ontologies/vivo-ontology/releases
