@@ -9606,7 +9606,21 @@ This class allows for linking an author to a publication while indicating inform
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F1000 is a place where faculty go to critique papers published in PubMed. Any given record in F1000 might have anywhere from one to dozens of reviews.</obo:IAO_0000112>
     </owl:Class>
 
+    <!-- http://vivoweb.org/ontology/core#DownloadLink -->
 
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#DownloadLink">
+        <rdfs:label xml:lang="en">Download Link</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#URL"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Download link is an URL for downloading dataset, scholarly output, software, etc.</obo:IAO_0000112>
+    </owl:Class>
+
+    <!-- http://vivoweb.org/ontology/core#RepositoryLink -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#RepositoryLink">
+        <rdfs:label xml:lang="en">Repository Link</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#URL"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repository link is an URL for accessing repository record, e.g. a GitHub repository for a software.</obo:IAO_0000112>
+    </owl:Class>
 
     <!-- http://vivoweb.org/ontology/core#Facility -->
 
