@@ -832,7 +832,53 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:ObjectProperty>
 
+    <!-- http://purl.obolibrary.org/obo/ERO_0000791 -->
 
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000791">
+        <rdfs:label xml:lang="en">has minimum requirement</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java 11 is a minimum requirement for a software.</obo:IAO_0000112>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Dragan Ivanovic</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minimum requirements for running a software. It might be linked with memory or processor requirement, or other software dependency. </obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has minimum requirement</obo:IAO_0000111>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000792 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000792">
+        <rdfs:label xml:lang="en">has minimum memory requirement</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000791"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000793 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000793">
+        <rdfs:label xml:lang="en">has minimum processor requirement</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000791"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000794 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000794">
+        <rdfs:label xml:lang="en">has required software dependency</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000791"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000795 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000795">
+        <rdfs:label xml:lang="en">has minimum free storage requirement</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000791"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
 
     <!-- http://purl.obolibrary.org/obo/ERO_0000918 -->
 
