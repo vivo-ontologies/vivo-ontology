@@ -6388,6 +6388,12 @@ To enable other Gender/Sex codes to be used, this dataproperty has range URI. Th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000071">
         <rdfs:label xml:lang="en">Software</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bibo/doi"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A general term primarily used for digitally stored data such as computer programs and other kinds of information read and written by computers.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO is a planned specification, in SWO is an Information artifact. In eagle-i, we have a need to collect material instances and is it thus currently classified as a material entity.</rdfs:comment>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word is commonly used word processing software.</obo:IAO_0000112>
@@ -6397,7 +6403,15 @@ To enable other Gender/Sex codes to be used, this dataproperty has range URI. Th
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
 
+    <!-- http://vivoweb.org/ontology/core#swhid -->
 
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#swhid">
+        <rdfs:label xml:lang="en">SWHID</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home page for SoftWare Heritage persistent IDentifiers : https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SoftWare Heritage persistent IDentifiers, or SWHIDs for short, is a PID for software artifacts. It guarantees to remain stable (persistent) over time.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+    </owl:DatatypeProperty>
 
     <!-- http://purl.obolibrary.org/obo/ERO_0000224 -->
 
