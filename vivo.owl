@@ -9434,7 +9434,23 @@ This class allows for linking an author to a publication while indicating inform
         <obo:IAO_0000115>A relationship that represents the recognition of an agent as an editor.</obo:IAO_0000115>
     </owl:Class>
 
-
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Maintainership">
+        <rdfs:label xml:lang="en">Maintainership</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A relationship that represents the recognition of a person as a maintainer.</obo:IAO_0000115>
+    </owl:Class>
 
     <!-- http://vivoweb.org/ontology/core#EducationalProcess -->
 
