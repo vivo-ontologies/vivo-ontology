@@ -6387,9 +6387,9 @@ To enable other Gender/Sex codes to be used, this dataproperty has range URI. Th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000071">
         <rdfs:label xml:lang="en">Software</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A general term primarily used for digitally stored data such as computer programs and other kinds of information read and written by computers.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO is a planned specification, in SWO is an Information artifact. In eagle-i, we have a need to collect material instances and is it thus currently classified as a material entity.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aligned with SWO which also define software and other type of services as subtype of Information content entity (http://purl.obolibrary.org/obo/IAO_0000030).</rdfs:comment>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word is commonly used word processing software.</obo:IAO_0000112>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Computer_software</obo:IAO_0000119>
