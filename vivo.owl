@@ -6388,6 +6388,12 @@ To enable other Gender/Sex codes to be used, this dataproperty has range URI. Th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000071">
         <rdfs:label xml:lang="en">Software</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A general term primarily used for digitally stored data such as computer programs and other kinds of information read and written by computers.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO is a planned specification, in SWO is an Information artifact. In eagle-i, we have a need to collect material instances and is it thus currently classified as a material entity.</rdfs:comment>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Word is commonly used word processing software.</obo:IAO_0000112>
@@ -8677,6 +8683,15 @@ has super-classes</obo:IAO_0000115>
 
 
 
+    <!-- http://vivoweb.org/ontology/core#MaintainerRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#MaintainerRole">
+        <rdfs:label xml:lang="en">Maintainer Role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </owl:Class>
+
+
+
     <!-- http://vivoweb.org/ontology/core#AdvisingProcess -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#AdvisingProcess">
@@ -9432,24 +9447,6 @@ This class allows for linking an author to a publication while indicating inform
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A relationship that represents the recognition of an agent as an editor.</obo:IAO_0000115>
-    </owl:Class>
-
-    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Maintainership">
-        <rdfs:label xml:lang="en">Maintainership</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
-                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A relationship that represents the recognition of a person as a maintainer.</obo:IAO_0000115>
     </owl:Class>
 
     <!-- http://vivoweb.org/ontology/core#EducationalProcess -->
