@@ -2097,7 +2097,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#orcidId">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <obo:IAO_0000112>This is now an object property where the object value is a resource of the form &lt;http://orcid.org/NNNN-NNNN-NNNN-NNNN&gt;.  This is to support connecting VIVO and ORCID in the linked data web.   Note: a person can have multiple ORCID iDs.</obo:IAO_0000112>
+        <obo:IAO_0000112>This is now an object property where the object value is a resource of the form &lt;https://orcid.org/NNNN-NNNN-NNNN-NNNN&gt;.  This is to support connecting VIVO and ORCID in the linked data web.   Note: a person can have multiple ORCID iDs.</obo:IAO_0000112>
         <vitro:stubObjectPropertyAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:stubObjectPropertyAnnot>
         <rdfs:label xml:lang="en">ORCID iD</rdfs:label>
     </owl:ObjectProperty>
