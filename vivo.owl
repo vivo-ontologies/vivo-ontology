@@ -6402,7 +6402,7 @@ To enable other Gender/Sex codes to be used, this dataproperty has range URI. Th
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#swhid">
         <rdfs:label xml:lang="en">SWHID</rdfs:label>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home page for SoftWare Heritage persistent IDentifiers : https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SoftWare Heritage persistent IDentifiers, or SWHIDs for short, is a PID for software artifacts. It guarantees to remain stable (persistent) over time.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SoftWare Heritage persistent IDentifier, or SWHID for short, is a PID for software artifacts. It guarantees to remain stable (persistent) over time.</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
     </owl:DatatypeProperty>
