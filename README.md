@@ -18,6 +18,15 @@ VIVO Ontologies is an open source community. All are welcome to open issues, par
 
 You can contribute using the fork, branch and pull model. Helpful descriptions of the process are available [on the VIVO wiki](https://wiki.lyrasis.org/display/VIVO/Contributing+code+with+a+fork%2C+branches%2C+and+pull+requests).
 
+## Editing Policy
+Manual structural changes can result in inconsistencies. Editing and saving the file with ontology editors or IDEs can lead to new serialisations, which creates verbose diffs. This makes reviewing the changes very difficult. Therefore we recommend the following approaches for editing:
+
+* For **large modifications**: Use [Protégé](https://github.com/protegeproject/protege-distribution/releases) (Version 5.6.4) to ensure consistency. **Re-serialize the ontology** with `[robot](http://robot.obolibrary.org/)` before submitting a pull request. This helps to minimize differences and fosters the review.
+* For **small modifications** (e.g. minor annotations, small additions, or typos): Direct manual editing using a text editor is permitted. In these cases, re-serialization is **not required**. Small changes are less likely to impact the structural consistency or to lead to verbose diffs.
+
+**Updates:**  
+Updates to approved tools and versions will be posted here.
+
 ## Releases
 ### Semantic Versioning
 This ontology adheres to the principles of Semantic Versioning (SemVer) for managing its releases. Semantic Versioning provides a standardized approach for versioning ontologies, allowing users to quickly understand the scope of changes between versions.
