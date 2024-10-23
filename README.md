@@ -21,7 +21,7 @@ You can contribute using the fork, branch and pull model. Helpful descriptions o
 ## Editing Policy
 Manual structural changes can result in inconsistencies. Editing and saving the file with ontology editors or IDEs can lead to new serialisations, which creates verbose diffs. This makes reviewing the changes very difficult. Therefore we recommend the following approaches for editing:
 
-* For **large modifications**: Use [Protégé](https://github.com/protegeproject/protege-distribution/releases) (Version 5.6.4) to ensure consistency. **Re-serialize the ontology** with `[robot](http://robot.obolibrary.org/)` before submitting a pull request. This helps to minimize differences and fosters the review.
+* For **large modifications**: Use [Protégé](https://github.com/protegeproject/protege-distribution/releases) (Version 5.6.4) to ensure consistency. **Re-serialize the ontology** with [robot](http://robot.obolibrary.org/) before submitting a pull request. This helps to minimize differences and fosters the review.
 * For **small modifications** (e.g. minor annotations, small additions, or typos): Direct manual editing using a text editor is permitted. In these cases, re-serialization is **not required**. Small changes are less likely to impact the structural consistency or to lead to verbose diffs.
 
 **Updates:**  
