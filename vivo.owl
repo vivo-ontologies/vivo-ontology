@@ -14,13 +14,13 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#">
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
-		<dc:creator rdf:resource="VIVO Ontology Interest Group"/>
+        <dc:creator rdf:resource="VIVO Ontology Interest Group"/>
     </owl:Ontology>
 
     <!--
