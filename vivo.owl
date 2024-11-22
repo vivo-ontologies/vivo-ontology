@@ -15,10 +15,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#">
+     xmlns:doap="http://usefulinc.com/ns/doap#">	
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
+	<doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
     </owl:Ontology>
 
     <!--
