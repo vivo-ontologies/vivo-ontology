@@ -14,6 +14,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
      xmlns:doap="http://usefulinc.com/ns/doap#">	
 
@@ -22,6 +23,7 @@
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
 	      <doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
         <terms:creator rdf:resource="VIVO Ontology Interest Group"/>
+        <vann:preferredNamespacePrefix>vivo</vann:preferredNamespacePrefix>
     </owl:Ontology>
 
     <!--
