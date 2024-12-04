@@ -20,7 +20,8 @@
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
-	<doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
+	      <doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
+        <terms:creator rdf:resource="VIVO Ontology Interest Group"/>
     </owl:Ontology>
 
     <!--
