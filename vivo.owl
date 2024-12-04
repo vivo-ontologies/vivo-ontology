@@ -14,13 +14,17 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#">
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
+     xmlns:doap="http://usefulinc.com/ns/doap#">	
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
         <terms:description xml:lang="en">The VIVO Ontology is used to represent the expertise of people engaged in the creation, transmission, and preservation of knowledge and creative works. The VIVO ontology (hereafter referred to as “the ontology”) represents expertise by describing the activities and accomplishments of people in terms of their relationships to particular artifacts of the work, resources they use, institutions that employ them, and other indicators. The ontology is independent of knowledge or creative domain. The ontology supports the identification, evaluation, and impact assessment of individual people and groups of people, as well as identification and reuse of the works of the people.</dc:description>
+	      <doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
         <terms:creator rdf:resource="VIVO Ontology Interest Group"/>
+        <vann:preferredNamespacePrefix>vivo</vann:preferredNamespacePrefix>
     </owl:Ontology>
 
     <!--
@@ -4773,6 +4777,16 @@ Definition source: http://isiwebofknowledge.com/researcherid/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
+
+    <!-- http://vivoweb.org/ontology/core#rorId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#rorId">
+        <rdfs:label xml:lang="en">ROR ID</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ROR ID is a unique identifier for organizations in the Research Organization Registry (ROR), which is a global, community-led registry of open persistent identifiers for research organizations.
+Definition source: https://ror.org/about/</obo:IAO_0000112>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:DatatypeProperty>
 
 
     <!-- http://vivoweb.org/ontology/core#scopusId -->
