@@ -23,6 +23,7 @@
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
         <terms:description xml:lang="en">The VIVO Ontology is used to represent the expertise of people engaged in the creation, transmission, and preservation of knowledge and creative works. The VIVO ontology (hereafter referred to as “the ontology”) represents expertise by describing the activities and accomplishments of people in terms of their relationships to particular artifacts of the work, resources they use, institutions that employ them, and other indicators. The ontology is independent of knowledge or creative domain. The ontology supports the identification, evaluation, and impact assessment of individual people and groups of people, as well as identification and reuse of the works of the people.</terms:description>
         <doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
+        <doap:bug-database rdf:resource="https://github.com/vivo-ontologies/vivo-ontology/issues"/>
         <terms:creator rdf:resource="VIVO Ontology Interest Group"/>
         <vann:preferredNamespacePrefix>vivo</vann:preferredNamespacePrefix>
     </owl:Ontology>
