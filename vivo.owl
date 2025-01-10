@@ -20,7 +20,7 @@
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
-        <owl:versionInfo>1.8.0</owl:versionInfo>
+        <owl:versionInfo>1.9.0-SNAPSHOT</owl:versionInfo>
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
         <terms:description xml:lang="en">The VIVO Ontology is used to represent the expertise of people engaged in the creation, transmission, and preservation of knowledge and creative works. The VIVO ontology (hereafter referred to as “the ontology”) represents expertise by describing the activities and accomplishments of people in terms of their relationships to particular artifacts of the work, resources they use, institutions that employ them, and other indicators. The ontology is independent of knowledge or creative domain. The ontology supports the identification, evaluation, and impact assessment of individual people and groups of people, as well as identification and reuse of the works of the people.</terms:description>
         <doap:repository rdf:resource="https://github.com/vivo-ontologies/vivo-ontology"/>
