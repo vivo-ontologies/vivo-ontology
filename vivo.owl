@@ -4790,7 +4790,6 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     </owl:DatatypeProperty>
 
-
     <!-- http://vivoweb.org/ontology/core#scopusId -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#scopusId">
@@ -4800,7 +4799,14 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
+    <!-- http://vivoweb.org/ontology/core#dblpId -->
 
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#dblpId">
+        <rdfs:label xml:lang="en">dblp ID</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dblp computer science bibliography provides open bibliographic information on major computer science journals and proceedings. Definition source: https://dblp.org/. The DBLP ID uniquely identifies researchers in the DBLP.</obo:IAO_0000112>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
 
     <!-- http://vivoweb.org/ontology/core#seatingCapacity -->
 
