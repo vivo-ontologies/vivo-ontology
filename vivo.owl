@@ -4800,7 +4800,14 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
+    <!-- http://vivoweb.org/ontology/core#googlescholarId -->
 
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#googlescholarId">
+        <rdfs:label xml:lang="en">Google Scholar ID</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person's ID for Google Scholar Profiles. Source: https://scholar.google.com/intl/en/scholar/citations.html</obo:IAO_0000112>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
 
     <!-- http://vivoweb.org/ontology/core#seatingCapacity -->
 
