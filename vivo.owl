@@ -4768,6 +4768,15 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
     </owl:DatatypeProperty>
 
 
+    <!-- http://vivoweb.org/ontology/core#archivalResourceKey -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#archivalResourceKey">
+        <rdfs:label xml:lang="en">Archival Resource Key (ARK)</rdfs:label>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archival Resource Keys (ARKs) serve as persistent identifiers, or stable, trusted references for information objects.
+Definition source: https://arks.org/</obo:IAO_0000112>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
 
     <!-- http://vivoweb.org/ontology/core#researcherId -->
 
