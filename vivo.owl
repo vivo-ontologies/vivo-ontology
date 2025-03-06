@@ -4800,9 +4800,9 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
-    <!-- http://vivoweb.org/ontology/core#openalexId -->
+    <!-- http://vivoweb.org/ontology/core#openAlexId -->
 
-    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#openalexId">
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#openAlexId">
         <rdfs:label xml:lang="en">OpenAlex ID</rdfs:label>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The OpenAlex ID is the primary key for all OpenAlex entities. Source: https://docs.openalex.org/how-to-use-the-api/get-single-entities#the-openalex-id</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
