@@ -11,7 +11,7 @@ their use in some settings.
 
 ## A note about development
 
-The VIVO Ontology and related *VIVO ontologies* are under active development by the [VIVO Ontology Interest Group](https://wiki.lyrasis.org/display/VIVO/Ontology+Interest+Group) of the [VIVO Project](https://vivoweb.org/).
+The VIVO Ontology and related VIVO ontologies are under active development by the [VIVO Ontology Interest Group](https://wiki.lyrasis.org/display/VIVO/Ontology+Interest+Group) of the [VIVO Project](https://vivoweb.org/).
 The group holds regular meetings and is open to all. Please consider participating.
 
 VIVO Ontologies is an open source community. All are welcome to open issues, participate in discussions, and generate pull reqeuests.
