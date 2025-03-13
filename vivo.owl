@@ -4791,9 +4791,9 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
     </owl:DatatypeProperty>
 
 
-    <!-- http://vivoweb.org/ontology/core#wikidataiD -->
+    <!-- http://vivoweb.org/ontology/core#wikidataId -->
 
-    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#wikidataiD">
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#wikidataId">
         <rdfs:label xml:lang="en">Wikidata ID</rdfs:label>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier being used by Wikidata to identify entities in Wikidata.org. Entity ID URIs follow the pattern http://www.wikidata.org/entity/ID where ID is an entity ID.</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
