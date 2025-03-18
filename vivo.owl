@@ -4655,6 +4655,18 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
 
 
+    <!-- http://vivoweb.org/ontology/core#mastodonId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#mastodonId">
+        <rdfs:label xml:lang="en">Mastodon ID</rdfs:label>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Mastodon ID should be entered in the following format: https://mastodonserver.social/@username. Please replace 'mastodonserver.social' with the specific Mastodon server being utilised.</vitro:descriptionAnnot>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#middleName -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#middleName">
