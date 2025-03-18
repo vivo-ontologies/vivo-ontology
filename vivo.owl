@@ -4161,7 +4161,7 @@ The Uniform Code Council (UCC) was the Numbering Organization in the USA to admi
         <rdfs:label xml:lang="en">GND ID</rdfs:label>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier being used by Common Authority File (GND) of the German National Library (DNB) to represent  entities, i.e. persons, corporate bodies, conferences, locations, concepts and works that are related to cultural and scientific collections.</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://d-nb.info/standards/elementset/gnd#gndIdentifier</rdfs:seeAlso>
+        <rdfs:seeAlso>https://d-nb.info/standards/elementset/gnd#gndIdentifier</rdfs:seeAlso>
     </owl:DatatypeProperty>
 
 
