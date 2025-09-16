@@ -4799,7 +4799,7 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
-    <!-- http://vivoweb.org/ontology/core#dblpId -->
+    <!-- http://vivoweb.org/ontology/core#dblpPersonKey -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#dblpPersonKey">
         <rdfs:label xml:lang="en">dblp Person Key</rdfs:label>
