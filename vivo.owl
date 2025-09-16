@@ -4804,8 +4804,14 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#googleScholarId">
         <rdfs:label xml:lang="en">Google Scholar ID</rdfs:label>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person's ID for Google Scholar Profiles. Source: https://scholar.google.com/intl/en/scholar/citations.html</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
+        <obo:IAO_0000111 xml:lang="en">Google Scholar ID</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person's ID for Google Scholar Profiles. Example: </obo:IAO_0000112>
+        <rdfs:comment xml:lang="en">A Google Scholar ID is a unique identifier assigned by Google Scholar to an author of a publication in its index. They are alphanumeric strings (e.g. cU_FjsUAAAAJ) that serve as the local identifiers for persons in https://scholar.google.com .</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Google Scholar ID is a unique alphanumerical identifier that is used by Google Scholar to disambiguate researchers.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Google Scholar identifier</obo:IAO_0000118>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://scholar.google.com/citations?user=cU_FjsUAAAAJ</vitro:exampleAnnot>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
