@@ -4801,11 +4801,21 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
 
     <!-- http://vivoweb.org/ontology/core#dblpId -->
 
-    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#dblpId">
-        <rdfs:label xml:lang="en">dblp ID</rdfs:label>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dblp computer science bibliography provides open bibliographic information on major computer science journals and proceedings. Definition source: https://dblp.org/. The DBLP ID uniquely identifies researchers in the DBLP.</obo:IAO_0000112>
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#dblpPersonKey">
+        <rdfs:label xml:lang="en">dblp Person Key</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>     
+        <obo:IAO_0000111 xml:lang="en">dblp Person Key</obo:IAO_0000111>
+        <rdfs:comment xml:lang="en">A dblp person key identifies a person with a unique identifier assigned by dblp. They are alphanumeric strings (e.g., Q28136655) that serve as the local identifiers for persons in the dblp.</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dblp Person Key identifies a unique person in dblp such as https://dblp.org/pid/53/6062.html for Michael Conlon.</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://dblp.org/pid/53/6062.html</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In many ways, persons are identified in dblp on basis of the persons name string (optionally followed by a four digit number in case of several authors in dblp with the same name). That name can be found prominently in the grey bar at the top of a person's page. However, there is also a (more cryptic) unique identifier associated with a dblp person record. You can find this key listed in the "export" drop down menu right next to the name. The key can also be found as the "key" attribute of the "person" element in a persons XML export.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">dblp ID</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="https://dblp.org/faq/5210253.html"/>           
+    </owl:DatatypeProperty>
+
+
     </owl:DatatypeProperty>
 
     <!-- http://vivoweb.org/ontology/core#seatingCapacity -->
