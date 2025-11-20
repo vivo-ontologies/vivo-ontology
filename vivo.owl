@@ -4662,14 +4662,13 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
         <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
         <rdfs:label xml:lang="en">Mastodon ID</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Mastodon ID</obo:IAO_0000111>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Mastodon ID should be entered in the following format: https://[mastodonserver]/@[username]. Please replace 'mastodonserver.social' with the specific Mastodon server being utilised.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Mastodon ID should be structured in the following format: https://[mastodonserver]/@[username]. Please replace 'mastodonserver.social' with the specific Mastodon server being utilised.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier for an account on a Mastodon server</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Mastodon identifier</obo:IAO_0000118>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:comment xml:lang="en">A Mastodon ID is a unique identifier associated with an account on a Mastodon instance. It typically includes the server domain and the username, formatted as an URL.</rdfs:comment>
-        <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Mastodon ID should be recorded in the format https://[mastodonserver]/@[username]. Please replace 'mastodonserver.social' with the specific Mastodon server being utilised.</vitro:descriptionAnnot>
-        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: https://mastodon.social/@exampleuser</vitro:exampleAnnot>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Mastodon ID should be structured in the following format: https://[mastodonserver]/@[username]. Please replace 'mastodonserver.social' with the specific Mastodon server being utilised.</vitro:exampleAnnot>
     </owl:DatatypeProperty>
 
 
