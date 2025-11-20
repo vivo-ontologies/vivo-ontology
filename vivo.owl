@@ -4772,9 +4772,13 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#archivalResourceKey">
         <rdfs:label xml:lang="en">Archival Resource Key (ARK)</rdfs:label>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archival Resource Keys (ARKs) serve as persistent identifiers, or stable, trusted references for information objects.
-Definition source: https://arks.org/</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
+        <obo:IAO_0000111 xml:lang="en">ARK</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Archival Resource Key (ARK) consists of a standard prefix, a Name Assigning Authority Number (NAAN), and a unique object identifier within the assigned authority. Example: ark:/53355/cl010062370</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archival Resource Keys (ARKs) serve as persistent identifiers, or stable, trusted references for information objects.</obo:IAO_0000115>
+        <obo:IAO_000019 rdf:resource="https://arks.org"/>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Archival Resource Key (ARK) consists of a standard prefix, a Name Assigning Authority Number (NAAN), and a unique object identifier within the assigned authority. Example: ark:/53355/cl010062370</vitro:exampleAnnot>
     </owl:DatatypeProperty>
 
 
