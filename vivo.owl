@@ -4159,9 +4159,12 @@ The Uniform Code Council (UCC) was the Numbering Organization in the USA to admi
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#gndID">
         <rdfs:label xml:lang="en">GND ID</rdfs:label>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier being used by Common Authority File (GND) of the German National Library (DNB) to represent  entities, i.e. persons, corporate bodies, conferences, locations, concepts and works that are related to cultural and scientific collections.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier being used by Common Authority File (GND) of the German National Library (DNB) to represent  entities, i.e. persons, corporate bodies, conferences, locations, concepts and works that are related to cultural and scientific collections. The GND ID for VIVO is https://d-nb.info/gnd/1032630825.</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
         <rdfs:seeAlso>https://d-nb.info/standards/elementset/gnd#gndIdentifier</rdfs:seeAlso>
+        <obo:IAO_0000118 xml:lang="en">GND URI</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">GND-Identifier</obo:IAO_0000111>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The GND ID for VIVO is https://d-nb.info/gnd/1032630825</vitro:exampleAnnot>
     </owl:DatatypeProperty>
 
 
