@@ -4791,6 +4791,7 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
     </owl:DatatypeProperty>
 
 
+
     <!-- http://vivoweb.org/ontology/core#scopusId -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#scopusId">
@@ -12470,6 +12471,25 @@ Was called IMPP in vCard.</rdfs:comment>
         <rdfs:label xml:lang="en">Voice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
     </owl:Class>
+
+
+
+    <!-- http://vivoweb.org/ontology/core#wikidataId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#wikidataId">
+        <rdfs:label xml:lang="en">Wikidata ID</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>     
+        <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
+        <obo:IAO_0000111 xml:lang="en">Wikidata ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Wikidata identifier</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Wikidata entity ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">A Wikidata ID is a unique identifier assigned by Wikidata to an entity. It is an alphanumeric string (e.g., Q28136655) that serves to identify the entity in the Wikidata database (https://www.wikidata.org/) and query for it. In particular, an IDs for a class has the form Q\d*, one for a property has the form P\d*, where \d* is a sequence of digits of any length.</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifiers can be used as standalone in human-readable text: for instance, Q28136655 = "VIVO". They can be combined with the proper URI prefix to get the corresponding Wikidata URI, which always resolves to an URL: for instance, https://www.wikidata.org/wiki/Q28136655 . The URIs can be shortened using a namespace prefix: for instance, wd:Q28136655; this is the preferred writing for expressing statements in Turtle triples, in SPARQL queries, etc.</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifiers can be used as standalone in human-readable text: for instance, Q28136655 = "VIVO". They can be combined with the proper URI prefix to get the corresponding Wikidata URI, which always resolves to an URL: for instance, https://www.wikidata.org/wiki/Q28136655 . The URIs can be shortened using a namespace prefix: for instance, wd:Q28136655; this is the preferred writing for expressing statements in Turtle triples, in SPARQL queries, etc.</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier for an entity on Wikidata</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Wikidata:Identifiers"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q111513370"/>
+    </owl:DatatypeProperty>
 
 
 
