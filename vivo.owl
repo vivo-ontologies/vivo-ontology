@@ -4659,6 +4659,8 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#middleName">
         <rdfs:label xml:lang="en">middle name or initial</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+		<rdfs:domain rdf:resource="http://www.w3.org/2006/vcard/ns#Name"/>
     </owl:DatatypeProperty>
 
 
@@ -5065,7 +5067,7 @@ To enable other Gender/Sex codes to be used, this dataproperty has range URI. Th
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#givenName">
         <rdfs:label xml:lang="en">first name</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">called Given Name invCard</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">called Given Name in vCard</rdfs:comment>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2006/vcard/ns#Name"/>
     </owl:DatatypeProperty>
