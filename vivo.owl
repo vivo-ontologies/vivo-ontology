@@ -4641,8 +4641,23 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-    </owl:DatatypeProperty>
+   </owl:DatatypeProperty>
 
+	<!-- http://vivoweb.org/ontology/core#loopID -->
+
+	<owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#loopID">
+		<rdfs:label xml:lang="en">Loop ID</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>     
+		<rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
+		<obo:IAO_0000111 xml:lang="en">Loop ID</obo:IAO_0000111>
+		<obo:IAO_0000118 xml:lang="en">Loop profile ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">A Loop ID is a unique scholarly identifier assigned by Frontiersin to a researcher. It is a numeric string (e.g., 1234567) that serves to identify a researcher's profile in the Loop database of researcher’s impact (https://loop.frontiersin.org/) and query for it.</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A Loop ID can be used as standalone in human-readable text: for instance, 1234567 = "Max Mustermann". They can be combined with the proper URI prefix to get the corresponding Loop profile URI, which always resolves to an URL: for instance, https://loop.frontiersin.org/people/1234567/overview.</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Loop ID can be used as standalone in human-readable text: for instance, 1234567 = "Max Mustermann". They can be combined with the proper URI prefix to get the corresponding Loop profile URI, which always resolves to an URL: for instance, https://loop.frontiersin.org/people/1234567/overview.</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier of a researcher on the Loop database of a researcher impact</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Wikidata:Identifiers"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Property:P2798”/>
+    </owl:DatatypeProperty>
 
 
     <!-- http://vivoweb.org/ontology/core#majorField -->
