@@ -16,6 +16,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:doap="http://usefulinc.com/ns/doap#">	
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
@@ -27,6 +28,7 @@
         <doap:bug-database rdf:resource="https://github.com/vivo-ontologies/vivo-ontology/issues"/>
         <terms:creator xml:lang="en">VIVO Ontology Interest Group</terms:creator>
         <vann:preferredNamespacePrefix>vivo</vann:preferredNamespacePrefix>
+        <dcat:distribution rdf:resource="https://raw.githubusercontent.com/vivo-ontologies/vivo-ontology/master/vivo.owl"/>
     </owl:Ontology>
 
     <!--
