@@ -4897,6 +4897,22 @@ See also core:localAwardId.
 
 
 
+    <!-- http://example.org/ontology/core#viafID -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/ontology/core#viafID">
+        <rdfs:label xml:lang="en">Virtual International Authority File ID</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">VIAF ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">VIAF Cluster ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The Virtual International Authority File ID (VIAF ID) is an identifier that is being used by the OCLC service VIAF to disambiguate authority file records.</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://viaf.org/en/viaf/76487146</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://viaf.org/en/viaf/76487146</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identifier for the Virtual International Authority File database [format: up to 22 digits]; please note: VIAF is a cluster, the ID can include multiple items</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.wikidata.org/wiki/Property:P214</obo:IAO_0000119>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/scientific-research#irbNumber -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/scientific-research#irbNumber">
