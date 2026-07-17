@@ -4576,6 +4576,22 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
 
 
+    <!-- http://example.org/ontology/core#internationalStandardNameIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/ontology/core#internationalStandardNameIdentifier">
+        <rdfs:label xml:lang="en">International Standard Name Identifier</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ISNI</obo:IAO_0000111>
+        <rdfs:comment xml:lang="en">The International Standard Name Identifier (ISNI) is a unique identifier for actors in intellectual or artistic ontents.</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">115441915</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">115441915</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISNI is a standard that uniquely identifies Public Identities involved throughout the chain of creation, production, management and distribution of intellectual or artistic contents. It identifies the Public Identities of Parties such as authors, composers, cartographers, performers, academic and scientific authors, researchers.  ISNI also identifies Public Identities of organisations or groups involved in these roles. These include musical groups and other performing acts, as well as business firms, publishers, universities and their departments, and any other group of people acting together under a common name.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://isni.org/page/faqs/</obo:IAO_0000119>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#hrJobTitle -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#hrJobTitle">
