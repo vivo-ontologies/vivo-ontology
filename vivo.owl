@@ -4780,6 +4780,22 @@ Definition source: http://isiwebofknowledge.com/researcherid/</obo:IAO_0000112>
     </owl:DatatypeProperty>
 
 
+
+    <!-- http://vivoweb.org/ontology/core#researchGateUserName -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/ontology/core#researchGateUserName">
+        <rdfs:label xml:lang="en">ResearchGate User Name</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ResearchGate user name</obo:IAO_0000111>
+        <rdfs:comment xml:lang="en">The ResearchGate User Name is being used by ResearchGate to identify users and as a part of their profile URLs.</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Tim-Berners-Lee“ is the ResearchGate User Name, which is a part of the URL https://www.researchgate.net/profile/Tim-Berners-Lee.</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">„Tim-Berners-Lee“ is the ResearchGate user name, which is a part of the URL https://www.researchgate.net/profile/Tim-Berners-Lee.</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User name being used by ResearchGate to identify individual users.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#rorId -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#rorId">
