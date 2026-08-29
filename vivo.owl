@@ -4737,6 +4737,23 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
 
 
+ <!-- http://vivoweb.org/ontology/core#purlID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#purlID">
+        <rdfs:label xml:lang="en">PURL</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Persistent Uniform Resource Locator</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Persistent URL</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">PURLs (Persistent Uniform Resource Locators) are Web addresses that act as permanent identifiers in the face of a dynamic and changing Web infrastructure. Instead of resolving directly to Web resources, PURLs provide a level of indirection that allows the underlying Web addresses of resources to change over time without negatively affecting systems that depend on them.</rdfs:comment>
+        <obo:IAO_0000112>http://purl.org/ontology/bibo/</obo:IAO_0000112>
+        <vitro:exampleAnnot>http://purl.org/ontology/bibo/</vitro:exampleAnnot>
+        <obo:IAO_0000115>PURL is a unique web resource identifier used to facilitate the redirection of a Hypertext Transfer Protocol (HTTP) search query to its permanent network location. PURLs represent an approach to address the problem of “link rot,” where hypertext links fail to direct searches to the proper Web resource due to site reorganization, page removal, or URL change. A PURL is a permanent uniform resource locator used in conjunction with an intermediate resolution service, which associates the PURL to the current URL, and thus redirects the HTTP search to the appropriate Web resource.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://dictionary.archivists.org/entry/persistent-uniform-resource-locator.html</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#rank -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#rank">
