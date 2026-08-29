@@ -4550,6 +4550,23 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
 
 
+ <!-- http://vivoweb.org/ontology/core#handleID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#handleID">
+        <rdfs:label xml:lang="en">Handle</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Handle ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Handle System ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The Handle is a persistent, globally unique identifier for information resources, assigned within the Handle System — a distributed infrastructure developed by the Corporation for National Research Initiatives (CNRI). A handle consists of a naming authority prefix and a unique local name separated by &quot;/&quot;, for example 20.1000/100. Handles can be resolved via the global Handle resolver at https://hdl.handle.net/, for example https://hdl.handle.net/20.1000/100.</rdfs:comment>
+        <obo:IAO_0000112>20.1000/100 (resolvable as https://hdl.handle.net/20.1000/100)</obo:IAO_0000112>
+        <vitro:exampleAnnot>20.1000/100 (resolvable as https://hdl.handle.net/20.1000/100)</vitro:exampleAnnot>
+        <obo:IAO_0000115>A Handle is a persistent identifier within the Handle System, assigned under a unique naming authority. Every handle is globally unique and may be used as a persistent identifier for Internet resources. A handle does not have to be derived from the entity it names; the only operational connection between a handle and the entity it names is maintained within the Handle System.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://datatracker.ietf.org/doc/html/rfc3650</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#hasMonetaryAmount -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#hasMonetaryAmount">
