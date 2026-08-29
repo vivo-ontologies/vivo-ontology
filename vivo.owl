@@ -4485,6 +4485,23 @@ modern society using the world of Star trek. Los Angeles Times, March
 
 
 
+    <!-- http://vivoweb.org/ontology/core#dblpPersonKey -->
+        <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#dblpPersonKey">        
+        <rdfs:label xml:lang="en">dblp Person Key</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>  
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>    
+        <obo:IAO_0000111 xml:lang="en">dblp Person Key</obo:IAO_0000111>
+        <rdfs:comment xml:lang="en">A dblp person key is a code used to uniquely identify a scientist by the "dblp computer science bibliography", a joint service of Schloss Dagstuhl - Leibniz Center for Informatics and the University of Trier. The dblp person key, combined with the URI prefix, yields the resolvable URI of the entry. The key itself is an alphanumeric string composed of digits, letters, a slash and optionally a hyphen - e.g. [05/4792](https://dblp.org/pid/05/4792.html) or [z/KonradZuse](https://dblp.org/pid/z/KonradZuse.html)</rdfs:comment>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dblp Person Key identifies a unique person in dblp such as https://dblp.org/pid/53/6062.html for Michael Conlon.</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dblp Person Key identifies a unique person in dblp such as https://dblp.org/pid/53/6062.html for Michael Conlon.</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In many ways, persons are identified in dblp on basis of the persons name string (optionally followed by a four digit number in case of several authors in dblp with the same name). That name can be found prominently in the grey bar at the top of a person's page. However, there is also a (more cryptic) unique identifier associated with a dblp person record. You can find this key listed in the "export" drop down menu right next to the name. The key can also be found as the "key" attribute of the "person" element in a persons XML export.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">dblp ID</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="https://dblp.org/faq/5210253.html"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#departmentOrSchool -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#departmentOrSchool">
@@ -4801,6 +4818,8 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:DatatypeProperty>
 
+
+
     <!-- http://vivoweb.org/ontology/core#openAlexId -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#openAlexId">
@@ -4808,6 +4827,8 @@ Definition source: https://ror.org/about/</obo:IAO_0000112>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The OpenAlex ID is the primary key for all OpenAlex entities. Source: https://docs.openalex.org/how-to-use-the-api/get-single-entities#the-openalex-id</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
     </owl:DatatypeProperty>
+
+
 
     <!-- http://vivoweb.org/ontology/core#seatingCapacity -->
 
