@@ -4503,6 +4503,19 @@ modern society using the world of Star trek. Los Angeles Times, March
 
 
 
+    <!-- http://example.org/ontology/core#dimensionsResearcherId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#dimensionsResearcherId">
+       <rdfs:label xml:lang="en">Dimensions Researcher ID</rdfs:label>
+       <rdfs:comment xml:lang="en">The Dimensions Researcher ID is the identifier that Digital Science Dimensions is using to differentiate researchers.</rdfs:comment>
+       <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ur.010172570453.47</obo:IAO_0000112>
+       <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ur.010172570453.47</vitro:exampleAnnot>
+       <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+       <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#eRACommonsId -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#eRACommonsId">
