@@ -4897,6 +4897,21 @@ See also core:localAwardId.
 
 
 
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#urnID">
+        <rdfs:label xml:lang="en">URN</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Uniform Resource Name</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">URN</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">A Uniform Resource Name (URN) is a persistent, location-independent resource identifier assigned under the urn URI scheme within a registered namespace. URNs are globally unique and are intended to remain valid even after the identified resource ceases to exist or becomes unavailable.</rdfs:comment>
+        <obo:IAO_0000112>urn:ISSN:0167-6423</obo:IAO_0000112>
+        <vitro:exampleAnnot>urn:ISSN:0167-6423</vitro:exampleAnnot>
+        <obo:IAO_0000115>A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that is assigned under the &quot;urn&quot; URI scheme and a particular URN namespace, with the intent that the URN will be a persistent, location-independent resource identifier. A URN namespace is a collection of such URNs, each of which is unique, assigned in a consistent and managed way, and assigned according to a common definition.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.rfc-editor.org/rfc/rfc8141.html</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/scientific-research#irbNumber -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/scientific-research#irbNumber">
