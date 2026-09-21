@@ -4673,6 +4673,21 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
 
 
+    <!-- http://vivoweb.org/ontology/core#orapPrizeId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#orapPrizeId">
+        <rdfs:label xml:lang="en">ORAP-PRIZE-ID</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>     
+        <rdfs:isDefinedBy rdf:resource="http://vivoweb.org/ontology/core"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O001079</obo:IAO_0000112>
+        <vitro:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier from the Open Registry of Awards and Prizes (ORAP) of the Kommission für Forschungsinformationen in Deutschland (KFiD). Example: O001079 for the "Gottfried Wilhelm Leibniz-Preis".</vitro:exampleAnnot>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier for each record. This identifier is a sequential number.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://github.com/KFiD-G/ORAP/blob/main/Metadatenschema.md"/>
+        <rdfs:domain rdf:resource="http://vivoweb.org/ontology/core#Award"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://vivoweb.org/ontology/core#outreachOverview -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#outreachOverview">
