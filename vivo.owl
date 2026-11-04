@@ -4405,6 +4405,282 @@ modern society using the world of Star trek. Los Angeles Times, March
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/locator"/>
     </owl:DatatypeProperty>
 
+    <!-- http://vivoweb.org/ontology/core#authenticusID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#authenticusID">
+        <rdfs:label xml:lang="en">AuthenticusID</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Authenticus ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Authenticus ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">see: https://www.authenticus.pt/en/home/view_article/1</rdfs:comment>
+        <obo:IAO_0000112>R-001-0W1</obo:IAO_0000112>
+        <vitro:exampleAnnot>R-001-0W1</vitro:exampleAnnot>
+		<rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#bibcodeID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#bibcodeID">
+        <rdfs:label xml:lang="en">Bibcode</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Bibcode ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Bibcode ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The bibcode (also known as the refcode) is a compact identifier used by several astronomical data systems to uniquely specify literature references.</rdfs:comment>
+        <obo:IAO_0000112>1974AJ.....79..819H</obo:IAO_0000112>
+        <vitro:exampleAnnot>1974AJ.....79..819H</vitro:exampleAnnot>
+        <obo:IAO_0000115>The code has a fixed length of 19 characters and has the form YYYYJJJJJVVVVMPPPPA</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Bibcode</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#cstrID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#cstrID">
+        <rdfs:label xml:lang="en">Science and technology resource identification</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Science and technology resource ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Science and technology resource ID</obo:IAO_0000118>
+        <obo:IAO_0000112>31253.11.sciencedb.00024</obo:IAO_0000112>
+        <vitro:exampleAnnot>31253.11.sciencedb.00024</vitro:exampleAnnot>
+        <obo:IAO_0000115>The Common Science and Technology Resource Identifier(&quot;CSTR&quot;) is the world&#x27;s unique persistent identifier to locating, accessing, and manipulating science and technology resources.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cstr.cn/doc/specification/</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#emdbID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#emdbID">
+        <rdfs:label xml:lang="en">Electron Microscopy Data Bank</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Electron Microscopy Data Bank ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Electron Microscopy Data Bank ID</obo:IAO_0000118>
+        <obo:IAO_0000112>EMD-38112</obo:IAO_0000112>
+        <vitro:exampleAnnot>EMD-38112</vitro:exampleAnnot>
+        <obo:IAO_0000115>An EMDB accession code is issued upon submission of a OneDep deposition. It consists of the string “EMD-” followed by a number with at least 4-digits (EMD-xxxx...x, where x is a digit from 0-9).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://ftp.ebi.ac.uk/pub/databases/emdb/doc/XML-schemas/emdb-schemas/v3/current_v3/doc/Untitled.html</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#empiarID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#empiarID">
+        <rdfs:label xml:lang="en">Electron Microscopy Public Image Archive</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Electron Microscopy Public Image Archive ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Electron Microscopy Public Image Archive ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">see https://www.ebi.ac.uk/empiar/</rdfs:comment>
+        <obo:IAO_0000112>EMPIAR-10009</obo:IAO_0000112>
+        <vitro:exampleAnnot>EMPIAR-10009</vitro:exampleAnnot>
+        <obo:IAO_0000115>EMPIAR (https://empiar.org/ or https://www.ebi.ac.uk/empiar), the Electron Microscopy Public Image Archive, is a public resource for raw images underpinning 3D cryo-EM maps and tomograms (themselves archived in EMDB).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ebi.ac.uk/empiar/about/</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#ethosID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#ethosID">
+        <rdfs:label xml:lang="en">EThOS Persistent ID</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">EThOS Persistent ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">EThOS Persistent ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The EthOS ID uniquely identifies works in EThOS (E-Theses Online Service), the British Library’s database of UK doctoral theses.</rdfs:comment>
+        <obo:IAO_0000112>uk.bl.ethos.710826</obo:IAO_0000112>
+        <vitro:exampleAnnot>uk.bl.ethos.710826</vitro:exampleAnnot>
+        <obo:IAO_0000115>EThOS (E-Theses Online Service) is the British Library’s database of UK doctoral theses.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Template:EThOS/doc</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Thesis"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#ismnID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#ismnID">
+        <rdfs:label xml:lang="en">International Standard Music Number</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">International Standard Music Number</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">ISNM</obo:IAO_0000118>
+        <obo:IAO_0000112>979-0-9016791-7-7</obo:IAO_0000112>
+        <vitro:exampleAnnot>979-0-9016791-7-7</vitro:exampleAnnot>
+        <obo:IAO_0000115>The International Standard Music Number or ISMN (ISO 10957) is a thirteen-character alphanumeric identifier for printed music developed by ISO.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Standard Music Number - Wikipedia</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#k10plusID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#k10plusID">
+        <rdfs:label xml:lang="en">K10plus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">K10plus ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">PPN</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">A K10plus ID uniquely identifies works in the K10plus, a database containing library data from ten German federal states, the Prussian Cultural Heritage Foundation and other institutions. Internally, this ID is referred to as PICA Production Number (PPN).</rdfs:comment>
+        <obo:IAO_0000112>1743392354</obo:IAO_0000112>
+        <vitro:exampleAnnot>1743392354</vitro:exampleAnnot>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#kuid -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#kuid">
+        <rdfs:label xml:lang="en">KoreaMed Unique Identifier</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">KoreaMed Unique Identifier</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">KMID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The KMID is a unique identifier for documents in KoreaMed, a service of the Korean Association of Medical Journal Editors (KAMJE).</rdfs:comment>
+        <obo:IAO_0000112>2515973</obo:IAO_0000112>
+        <vitro:exampleAnnot>2515973</vitro:exampleAnnot>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#lensID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#lensID">
+        <rdfs:label xml:lang="en">Lens ID</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Lens ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Lens ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The Lens ID identifies works in the scholarly database The Lens.</rdfs:comment>
+        <obo:IAO_0000112>099-206-516-425-815</obo:IAO_0000112>
+        <vitro:exampleAnnot>099-206-516-425-815</vitro:exampleAnnot>
+        <obo:IAO_0000115>Every document in the Lens can be located via a 15 digit identifier called a Lens ID. A Lens ID looks like this: 022-382-024-804-703. The identifier is broken into five groups where every 3rd digit is separated from the next with a dash (-). Eventually, resources like document collections, users and disambiguated inventors will also be identified by Lens IDs.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://support.lens.org/knowledge-base/the-lens-id/</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#olID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#olID">
+        <rdfs:label xml:lang="en">Open Library</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Open Library ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Open Library ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">A unique identifier which is assigned to documents in the database OSTI.gov.</rdfs:comment>
+        <obo:IAO_0000112>OL14961750W</obo:IAO_0000112>
+        <vitro:exampleAnnot>OL14961750W</vitro:exampleAnnot>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#ostiID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#ostiID">
+        <rdfs:label xml:lang="en">OSTI ID</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Office of Scientific and Technical Information ID</obo:IAO_0000111>
+        <rdfs:comment xml:lang="en">A unique identifier which is assigned to documents in the database OSTI.gov.</rdfs:comment>
+        <obo:IAO_0000112>1890115</obo:IAO_0000112>
+        <vitro:exampleAnnot>1890115</vitro:exampleAnnot>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#pprID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#pprID">
+        <rdfs:label xml:lang="en">Europe PMC Preprint Identifier</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Europe PMC Preprint Identifier</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">PPR</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The Europe PMC Preprint Identifier uniquely identifies preprints in Europe PMC.</rdfs:comment>
+        <obo:IAO_0000112>PPR942055</obo:IAO_0000112>
+        <vitro:exampleAnnot>PPR942055</vitro:exampleAnnot>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#raid -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#raid">
+        <rdfs:label xml:lang="en">Research Activity Identifier</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Research Activity ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Research Activity ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">RAiD - the Research Activity Identifier - is a global system, governed by ISO 23527:2022, to uniquely identify research projects, collaboratively collect and publicly share information about them.</rdfs:comment>
+        <obo:IAO_0000112>10.71790/41dcc5e1</obo:IAO_0000112>
+        <vitro:exampleAnnot>10.71790/41dcc5e1</vitro:exampleAnnot>
+        <obo:IAO_0000115>The Research Activity Identifier (RAiD) is a persistent identifier (PID) and global registry dedicated to research projects.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.raid.org/</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://vivoweb.org/ontology/core#Project"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#rfcID -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#rfcID">
+        <rdfs:label xml:lang="en">Request for Comments</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Request for Comments ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">RFC ID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">An RFC ID is a unique identifier for Request for Comments documents, in which internet standards and protocols are proposed and defined.</rdfs:comment>
+        <obo:IAO_0000112>RFC 1118</obo:IAO_0000112>
+        <vitro:exampleAnnot>RFC 1118</vitro:exampleAnnot>
+        <obo:IAO_0000115>The IETF publishes its technical documentation as RFCs, an acronym for their historical title Requests for Comments. They describe the Internet&#x27;s technical foundations, such as addressing, routing, and transport technologies.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ietf.org/process/rfcs/</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#researchResourceIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#researchResourceIdentifier">
+        <rdfs:label xml:lang="en">Research Resource IDentifier</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">RRID</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The Research Resource IDentifier is a unique identifier that can reference different research-relevant entities such as samples, research software, or datasets.</rdfs:comment>
+        <obo:IAO_0000112>SCR_005257</obo:IAO_0000112>
+        <vitro:exampleAnnot>SCR_005257</vitro:exampleAnnot>
+        <obo:IAO_0000115>Research Resource Identifiers (#RRID) are ID numbers assigned to help researchers cite key resources (antibodies, model organisms and software projects) in the biomedical literature to improve transparency of research methods.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.rrids.org/</obo:IAO_0000119>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://vivoweb.org/ontology/core#zbMathOpenDocumentId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#zbMathOpenDocumentId">
+        <rdfs:label xml:lang="en">Zentralblatt MATH</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">zbMATH open document ID</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">ZbI</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Unique identifier of a document in the zbMATH database</rdfs:comment>
+        <obo:IAO_0000112>137.352.025</obo:IAO_0000112>
+        <vitro:exampleAnnot>137.352.025</vitro:exampleAnnot>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+    </owl:DatatypeProperty>
+
 
 
     <!-- http://purl.org/spar/c4o/hasGlobalCountDate -->
